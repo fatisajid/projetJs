@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+body{
+    background-image: url(../img/wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    font-family: "Quicksand", sans-serif;
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#unicornImg, #rabbitImg{
+    width: 20%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: none;
+}
+
+#dialogueBox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: none;
+}
+
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ffff;
+    
+
+
+}
+
+#nextButton, #restartButton {
+    display: none;
+}
+
+.unicorn {
+    color: #f11fdf;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.rabbit {
+    color: blue;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#unicornImg.highlight{
+    border: 5px solid #f11fdf;
+}
+
+#rabbitImg.highlight{
+    border: 5px solid blue;
+}
+
